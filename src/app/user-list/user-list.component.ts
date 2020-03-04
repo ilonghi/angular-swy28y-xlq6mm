@@ -10,10 +10,13 @@ import { users } from '../users';
 export class UserListComponent implements OnInit {
 
   users = users
-  
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  edit() {
+    window.alert('edit')
+  }
 }

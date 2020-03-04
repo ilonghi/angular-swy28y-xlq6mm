@@ -1,0 +1,19 @@
+<h2>Users</h2>
+
+<div *ngFor="let user of users">
+
+  <h3>
+    <a [title]="user.username + ' details'">
+      {{ user.fullName }}
+    </a>
+  </h3>
+
+  <p *ngIf="user.admin">
+    Admin: {{ user.admin }}
+  </p>
+
+  <button (click)="edit()">
+    Edit
+  </button>
+
+</div>

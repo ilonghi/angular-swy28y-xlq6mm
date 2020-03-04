@@ -13,7 +13,7 @@ import { UserListComponent } from './user-list/user-list.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', component: UserListComponent },
     ])
   ],
   declarations: [
